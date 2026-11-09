@@ -1,0 +1,44 @@
+{
+  "fuente": "API oficial BDNS",
+  "endpoint": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+  "parametros_base": {
+    "vpd": "GE",
+    "pageSize": 50
+  },
+  "convocatorias": {
+    "834244": {
+      "organismo": "CDTI",
+      "paginas_recuperadas": 4,
+      "filas_de_convocatoria_en_origen": 165,
+      "concesiones_recuperadas": 165,
+      "beneficiarios_identificados": 150,
+      "registros_con_cif": 165,
+      "registros_sin_cif": 0,
+      "duplicados_detectados": 0,
+      "filas_ignoradas_por_otro_codigo_bdns": 0,
+      "posibles_errores_extraccion": 0
+    },
+    "848058": {
+      "organismo": "Red.es",
+      "paginas_recuperadas": 6,
+      "filas_de_convocatoria_en_origen": 291,
+      "concesiones_recuperadas": 291,
+      "beneficiarios_identificados": 267,
+      "registros_con_cif": 291,
+      "registros_sin_cif": 0,
+      "duplicados_detectados": 0,
+      "filas_ignoradas_por_otro_codigo_bdns": 0,
+      "posibles_errores_extraccion": 0
+    }
+  },
+  "total_concesiones_consolidadas": 456,
+  "duplicados_detectados_en_consolidado": 0,
+  "duplicados_detectados_total": 0,
+  "posibles_errores_extraccion": [],
+  "archivos_generados": [
+    "concesiones_cdti_834244.csv",
+    "concesiones_red_es_848058.csv",
+    "concesiones_consolidado.csv",
+    "informe_extraccion.json"
+  ]
+}

@@ -1,0 +1,10 @@
+.env
+/data/enriquecimiento_territorial/
+crear_db_notion.py
+.venv/ 
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.tmp
+/data/bdsn_extraccion/
